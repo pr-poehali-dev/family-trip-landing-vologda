@@ -2,7 +2,7 @@ import Icon from "@/components/ui/icon";
 
 const VOLOGDA_IMG = "https://cdn.poehali.dev/projects/aa906caa-3a27-45bc-aead-b9858701ad06/files/c6d4139b-f17c-413c-9401-2dea76f9db1f.jpg";
 const APARTMENT_IMG = "https://avatars.mds.yandex.net/get-travel-rooms/3748917/2a0000018a756b7ce9d4eca0c4778293a80f/L";
-const ROAD_IMG = "https://cdn.poehali.dev/projects/aa906caa-3a27-45bc-aead-b9858701ad06/files/d22becdf-12a6-48ff-8e11-34e59154aee2.jpg";
+const ROAD_IMG = "https://cdn.poehali.dev/files/6ced479f-0686-45a3-befc-e3ae11fac665.jpg";
 
 const restaurants = [
   {
