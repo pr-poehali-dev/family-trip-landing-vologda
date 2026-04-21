@@ -75,18 +75,7 @@ export default function Index() {
           <p className="text-white/75 text-lg md:text-xl max-w-lg mt-6 leading-relaxed">
             Три дня в старейшем городе Русского Севера. Кремль, деревянные особняки, вологодское кружево и тихие улицы вдоль реки.
           </p>
-          <div className="flex flex-wrap items-center gap-4 mt-8">
-            <div className="bg-[#C8A96E] text-white rounded-2xl px-8 py-4">
-              <div className="font-display text-3xl font-semibold">9 900 ₽</div>
-              <div className="text-white/80 text-sm">с человека</div>
-            </div>
-            <a
-              href="#price"
-              className="border border-white/30 text-white backdrop-blur-sm rounded-2xl px-8 py-4 hover:bg-white/10 transition-colors"
-            >
-              Записаться в тур →
-            </a>
-          </div>
+
         </div>
       </section>
 
@@ -335,56 +324,6 @@ export default function Index() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* ЦЕНА */}
-      <section id="price" className="py-20 px-6 md:px-16 bg-[#2A2016]">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="text-[#C8A96E] text-sm tracking-widest uppercase mb-4">Стоимость участия</div>
-          <h2 className="font-display text-5xl md:text-7xl text-white mb-6">
-            9 900 ₽{" "}
-            <span className="text-white/40 text-3xl md:text-4xl">с человека</span>
-          </h2>
-          <p className="text-white/60 text-lg mb-12 max-w-xl mx-auto">
-            В стоимость включены: апартаменты на 2 ночи, программа тура, подбор ресторанов и маршрут с гидом
-          </p>
-
-          <div className="grid md:grid-cols-3 gap-5 mb-12">
-            {[
-              { icon: "Building2", title: "Апартаменты", desc: "2 ночи в «Апарт отель на Ленина» в центре города" },
-              { icon: "Map", title: "Программа тура", desc: "Готовый маршрут по всем 3 дням с рекомендациями" },
-              { icon: "Users", title: "Гид и рестораны", desc: "Экскурсия с гидом и отбор лучших заведений" },
-            ].map((item) => (
-              <div key={item.title} className="bg-white/5 border border-white/10 rounded-2xl p-6 text-left">
-                <Icon name={item.icon as "Building2" | "Map" | "Users"} size={24} className="text-[#C8A96E] mb-3" />
-                <h4 className="text-white font-semibold mb-1">{item.title}</h4>
-                <p className="text-white/50 text-sm leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="bg-white/5 border border-white/10 rounded-3xl p-8 mb-8">
-            <h3 className="font-display text-2xl text-white mb-6">Варианты оплаты</h3>
-            <div className="grid md:grid-cols-3 gap-5">
-              {[
-                { emoji: "💳", title: "Банковская карта", desc: "Оплата картой онлайн через безопасную форму" },
-                { emoji: "📱", title: "СБП / QR", desc: "Перевод по номеру телефона или QR-коду" },
-                { emoji: "🏦", title: "Перевод на счёт", desc: "Банковский перевод по реквизитам. Счёт по запросу" },
-              ].map((pay) => (
-                <div key={pay.title} className="bg-white/5 rounded-2xl p-5 text-center">
-                  <div className="text-3xl mb-3">{pay.emoji}</div>
-                  <h4 className="text-white font-semibold mb-1">{pay.title}</h4>
-                  <p className="text-white/50 text-sm">{pay.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <button className="bg-[#C8A96E] hover:bg-[#b8956a] text-white rounded-2xl px-12 py-5 text-lg font-semibold transition-colors">
-            Записаться в тур
-          </button>
-          <p className="text-white/30 text-sm mt-4">Нажимая кнопку, вы соглашаетесь с условиями тура</p>
         </div>
       </section>
 
