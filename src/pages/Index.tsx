@@ -117,7 +117,7 @@ export default function Index() {
                     Апартаменты <strong className="text-[#2A2016]">«Апарт отель на Ленина»</strong> — в самом центре города, пешая доступность до всех достопримечательностей. Уютные современные апартаменты с кухней.
                   </p>
                   <a
-                    href="https://yandex.ru/maps/20/vologda/"
+                    href="https://yandex.ru/maps/20/vologda/?text=улица+Ленина+9+Вологда"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-[#3D5A4A] text-sm mt-3 hover:underline"
