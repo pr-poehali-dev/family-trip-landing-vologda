@@ -26,7 +26,7 @@ const restaurants = [
     desc: "Классический ресторан с домашней едой, борщом и кашами. Любимое место горожан уже десятки лет.",
     rating: "5.0",
     type: "Обед",
-    url: "https://yandex.ru/maps/66/vologda/category/restaurant/184106390/?ll=39.891250%2C59.220494",
+    url: "https://yandex.ru/maps/20/vologda/category/restaurant/184106390/",
     emoji: "🌿",
   },
 ];
@@ -36,19 +36,19 @@ const shops = [
     name: "Вологодское масло и кружево",
     desc: "Официальный фирменный магазин. Знаменитое вологодское масло, сыры и кружево ручной работы — лучшие сувениры из города.",
     emoji: "🧈",
-    url: "https://yandex.ru/maps/66/vologda/",
+    url: "https://yandex.ru/maps/20/vologda/",
   },
   {
     name: "Русский Север",
     desc: "Магазин сувениров с изделиями местных мастеров: береста, роспись, керамика и изделия из льна.",
     emoji: "🎁",
-    url: "https://yandex.ru/maps/66/vologda/",
+    url: "https://yandex.ru/maps/20/vologda/",
   },
   {
     name: "Рынок на Мира",
     desc: "Центральный городской рынок — свежие местные продукты, мёд, ягоды и домашние заготовки. Колорит настоящей Вологды.",
     emoji: "🛒",
-    url: "https://yandex.ru/maps/66/vologda/",
+    url: "https://yandex.ru/maps/20/vologda/",
   },
 ];
 
@@ -117,7 +117,7 @@ export default function Index() {
                     Апартаменты <strong className="text-[#2A2016]">«Апарт отель на Ленина»</strong> — в самом центре города, пешая доступность до всех достопримечательностей. Уютные современные апартаменты с кухней.
                   </p>
                   <a
-                    href="https://yandex.ru/maps/66/vologda/"
+                    href="https://yandex.ru/maps/20/vologda/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-[#3D5A4A] text-sm mt-3 hover:underline"
@@ -288,7 +288,7 @@ export default function Index() {
                     Рекомендуем «Берёзку» — классика вологодской кухни, борщ и домашние пироги. Рейтинг 5.0, любимое место горожан.
                   </p>
                   <a
-                    href="https://yandex.ru/maps/66/vologda/category/restaurant/184106390/"
+                    href="https://yandex.ru/maps/20/vologda/category/restaurant/184106390/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-[#3D5A4A] text-sm hover:underline"
