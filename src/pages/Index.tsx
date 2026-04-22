@@ -36,7 +36,7 @@ const shops = [
     name: "Вологодское масло и кружево",
     desc: "Официальный фирменный магазин. Знаменитое вологодское масло, сыры и кружево ручной работы — лучшие сувениры из города.",
     emoji: "🧈",
-    url: "https://yandex.ru/maps/20/vologda/",
+    url: "https://www.vologdamuseum.ru/content?id=131",
   },
   {
     name: "Русский Север",
