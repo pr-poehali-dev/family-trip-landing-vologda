@@ -45,10 +45,10 @@ const shops = [
     url: "https://www.tourister.ru/world/europe/russia/city/vologda/tips/8382?ysclid=moaf0bb4l8890554395",
   },
   {
-    name: "Рынок на Мира",
+    name: "Вологодские продукты",
     desc: "Центральный городской рынок — свежие местные продукты, мёд, ягоды и домашние заготовки. Колорит настоящей Вологды.",
     emoji: "🛒",
-    url: "https://yandex.ru/maps/20/vologda/",
+    url: "https://www.tripadvisor.ru/Attraction_Review-g445048-d27824512-Reviews-Vologda_Products-Vologda_Vologda_Oblast_Northwestern_District.html",
   },
 ];
 
