@@ -188,7 +188,7 @@ export default function Index() {
                 Авторская экскурсия по историческому центру: Вологодский Кремль, Софийский собор, деревянные особняки XIX века, музей кружева и набережная. Гид расскажет живые истории о городе и его знаменитых жителях.
               </p>
               <a
-                href="https://personalguide.ru/guides/svetlana-polyakova-vologda"
+                href="https://experience.tripster.ru/experience/Vologda/?utm_source=yandex&utm_medium=cpc&utm_campaign=exc_inf_cities_rf_srch&utm_content=703560666_Group-5650631011_Ad-17446806755_Placement-none_PhraseID-205650631011&utm_term=---autotargeting&pid=Yandex_web&c=exc_inf_cities_rf_srch&af_c_id=703560666&is_retargeting=true&af_reengagement_window=3&af_click_lookback=3d&clickid=3832608015999565823&etext=2202.Vma9leHMVuLWMuXEqmSeiwH1gsYcnLRO2CIGezS9W1xNPd_4BXa79F3mPL3ZbkWzqm4ujBT4SbHXvo6Wh415cmxrdmJtYnl6aXhnaW14YnE.ff599808d164cc7777c9dc39bc6765058a179965&yclid=3832608015999565823"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#3D5A4A] text-white rounded-xl px-5 py-2.5 text-sm hover:bg-[#2d4337] transition-colors"
