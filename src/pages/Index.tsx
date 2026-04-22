@@ -42,7 +42,7 @@ const shops = [
     name: "Русский Север",
     desc: "Магазин сувениров с изделиями местных мастеров: береста, роспись, керамика и изделия из льна.",
     emoji: "🎁",
-    url: "https://yandex.ru/maps/20/vologda/",
+    url: "https://www.tourister.ru/world/europe/russia/city/vologda/tips/8382?ysclid=moaf0bb4l8890554395",
   },
   {
     name: "Рынок на Мира",
