@@ -137,7 +137,7 @@ export default function Index() {
                 <div>
                   <h3 className="font-semibold text-lg mb-1">Вечер первого дня</h3>
                   <p className="text-[#8C7B6B] leading-relaxed">
-                    Прогулка по набережной реки Вологды, знакомство с городом. Ужин в ресторане — рекомендуем «Соленый огурец» с вологодской кухней.
+                    Прогулка по набережной реки Вологды, знакомство с городом. Ужин в ресторане — рекомендуем <strong className="text-[#2A2016]">Dome1791</strong> на ул. Мира 9.
                   </p>
                 </div>
               </div>
