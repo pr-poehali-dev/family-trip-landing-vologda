@@ -305,7 +305,7 @@ export default function Index() {
                   <Icon name="Star" size={20} className="text-[#C8A96E]" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg">Марусья</h4>
+                  <h4 className="font-semibold text-lg">Маруся</h4>
                   <p className="text-white/60 text-xs">Обратите внимание</p>
                 </div>
               </div>
