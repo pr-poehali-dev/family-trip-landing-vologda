@@ -248,75 +248,94 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-10">
-          <div>
-            <h3 className="font-display text-2xl mb-5">Местные магазины и сувениры</h3>
-            <div className="space-y-4">
-              {shops.map((shop) => (
-                <a
-                  key={shop.name}
-                  href={shop.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow group block"
-                >
-                  <div className="text-2xl">{shop.emoji}</div>
-                  <div>
-                    <h4 className="font-semibold mb-1 group-hover:text-[#3D5A4A] transition-colors">{shop.name}</h4>
-                    <p className="text-[#8C7B6B] text-sm leading-relaxed">{shop.desc}</p>
-                  </div>
-                </a>
-              ))}
-            </div>
+        {/* Магазины */}
+        <div className="mb-12">
+          <h3 className="font-display text-2xl mb-6">Местные магазины и сувениры</h3>
+          <div className="grid md:grid-cols-2 gap-4">
+            {shops.map((shop) => (
+              <a
+                key={shop.name}
+                href={shop.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-4 bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow group"
+              >
+                <div className="text-3xl mt-0.5">{shop.emoji}</div>
+                <div>
+                  <h4 className="font-semibold text-base mb-1 group-hover:text-[#3D5A4A] transition-colors">{shop.name}</h4>
+                  <p className="text-[#8C7B6B] text-sm leading-relaxed">{shop.desc}</p>
+                </div>
+              </a>
+            ))}
           </div>
+        </div>
 
-          <div className="space-y-5">
-            <div className="bg-white rounded-3xl p-6 shadow-sm">
-              <div className="flex items-start gap-4">
+        {/* Рестораны */}
+        <div className="mb-12">
+          <h3 className="font-display text-2xl mb-6">Где поесть в последний день</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+
+            <div className="bg-white rounded-3xl p-7 shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-2xl bg-[#F5EDE0] flex items-center justify-center flex-shrink-0">
                   <Icon name="UtensilsCrossed" size={20} className="text-[#C8A96E]" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-1">Обед перед отъездом</h3>
-                  <p className="text-[#8C7B6B] text-sm leading-relaxed mb-3">
-                    Рекомендуем «Бар-музей Васи Ложкина» — необычное место с авторской концепцией и вкусной едой перед дорогой домой.
-                  </p>
-                  <a
-                    href="https://restaurantguru.ru/Barmuzei-Vasi-Lozhkina-Vologda"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-[#3D5A4A] text-sm hover:underline"
-                  >
-                    <Icon name="ExternalLink" size={13} />
-                    Найти на карте
-                  </a>
+                  <h4 className="font-semibold text-lg">Бар-музей Васи Ложкина</h4>
+                  <p className="text-[#8C7B6B] text-xs">Обед перед отъездом</p>
                 </div>
               </div>
+              <p className="text-[#8C7B6B] text-sm leading-relaxed mb-4">
+                Необычное место с авторской концепцией, арт-объектами и вкусной едой. Отличный финал поездки — запомнится надолго.
+              </p>
+              <a
+                href="https://restaurantguru.ru/Barmuzei-Vasi-Lozhkina-Vologda"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[#3D5A4A] text-sm font-medium hover:underline"
+              >
+                <Icon name="ExternalLink" size={13} />
+                Открыть страницу
+              </a>
             </div>
 
-            <div className="bg-white rounded-3xl p-6 shadow-sm">
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-2xl bg-[#F5EDE0] flex items-center justify-center flex-shrink-0">
-                  <Icon name="LogOut" size={20} className="text-[#C8A96E]" />
+            <div className="bg-[#3D5A4A] rounded-3xl p-7 shadow-sm text-white">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-2xl bg-white/15 flex items-center justify-center flex-shrink-0">
+                  <Icon name="Star" size={20} className="text-[#C8A96E]" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-1">Выселение и дорога домой</h3>
-                  <p className="text-[#8C7B6B] text-sm leading-relaxed">
-                    Выселение до 12:00. После обеда — выезд домой. Трасса М-8 обратно в Москву, в пути ~5–6 часов. Возвращаемся вечером с отличным настроением и полными сумками сувениров.
-                  </p>
+                  <h4 className="font-semibold text-lg">Марусья</h4>
+                  <p className="text-white/60 text-xs">Обратите внимание</p>
                 </div>
               </div>
+              <p className="text-white/75 text-sm leading-relaxed mb-4">
+                Стильный ресторан с современной русской кухней. Отличная атмосфера, интересное меню и хорошее вино — место, которое стоит посетить хотя бы ради впечатления.
+              </p>
+              <a
+                href="https://marusyavologda.ru/restaurant?ysclid=moafqadmm873043221"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[#C8A96E] text-sm font-medium hover:underline"
+              >
+                <Icon name="ExternalLink" size={13} />
+                Сайт ресторана
+              </a>
             </div>
 
-            <div className="relative rounded-3xl overflow-hidden">
-              <img src={APARTMENT_IMG} alt="Апартаменты" className="w-full aspect-video object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#1a110a]/60 to-transparent flex items-end p-5">
-                <div>
-                  <div className="text-white font-semibold">Апарт отель на Ленина</div>
-                  <div className="text-white/70 text-sm">Наши апартаменты</div>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
+
+        {/* Дорога домой */}
+        <div className="bg-white rounded-3xl p-7 shadow-sm flex items-start gap-5">
+          <div className="w-12 h-12 rounded-2xl bg-[#F5EDE0] flex items-center justify-center flex-shrink-0">
+            <Icon name="LogOut" size={22} className="text-[#C8A96E]" />
+          </div>
+          <div>
+            <h3 className="font-semibold text-lg mb-2">Выселение и дорога домой</h3>
+            <p className="text-[#8C7B6B] leading-relaxed">
+              Выселение до 12:00. После обеда — выезд домой. Трасса М-8 обратно в Москву, в пути ~5–6 часов. Возвращаемся вечером с отличным настроением и полными сумками сувениров.
+            </p>
           </div>
         </div>
       </section>
