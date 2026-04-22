@@ -285,10 +285,10 @@ export default function Index() {
                 <div>
                   <h3 className="font-semibold text-lg mb-1">Обед перед отъездом</h3>
                   <p className="text-[#8C7B6B] text-sm leading-relaxed mb-3">
-                    Рекомендуем «Берёзку» — классика вологодской кухни, борщ и домашние пироги. Рейтинг 5.0, любимое место горожан.
+                    Рекомендуем «Бар-музей Васи Ложкина» — необычное место с авторской концепцией и вкусной едой перед дорогой домой.
                   </p>
                   <a
-                    href="https://yandex.ru/maps/20/vologda/category/restaurant/184106390/"
+                    href="https://restaurantguru.ru/Barmuzei-Vasi-Lozhkina-Vologda"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-[#3D5A4A] text-sm hover:underline"
